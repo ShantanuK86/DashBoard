@@ -1,0 +1,19 @@
+/* GoogleSlide.css */
+.slide-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh; /* Adjust based on your needs */
+  background: linear-gradient(-45deg, #222, rgb(41, 106, 247)); /* Example gradient */
+  border-radius: 16px;
+  padding: 5px;
+  transition: 0.4s ease-out;
+}
+
+.slide {
+  max-width: 100%; /* Adjust based on your needs */
+  max-height: 100%; /* Adjust based on your needs */
+  border-radius: 10px;
+  overflow: hidden;
+}
+
